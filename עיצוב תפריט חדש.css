@@ -1,0 +1,37 @@
+﻿/*display-צורת פריסה של רשת.
+הגדרה לאבא*/
+/*grid-temp-הגדרת גודל העמודות-מספר הארכים זהה למספר העמודות*/
+
+.grid-container {
+    /*להעמיד באותה עמודה*/
+    display: grid;
+	/*auto-מתחיל מאיפה שאמור להתחיל בברירת מחדל*/
+    grid-template-columns: auto auto auto;
+	/*צבע רקע*/
+    background-color: #2196F3;
+    /*רווח בין התמונות*/
+    padding: 10px;
+}
+
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+	/*מסגרת לתמונות*/ 
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+
+    font-size: 30px;
+	/*יישור התמונות למרכז*/
+    text-align: center;
+}
+/*img-הגדרת אורך ורוחב לכל התמונות*/
+img{
+	height:250px;
+	width:300px;
+}
+/*text align - ממרכז את הכותרת באמצע*/
+h1{
+	text-align:center;
+}
+
+

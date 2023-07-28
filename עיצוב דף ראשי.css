@@ -1,0 +1,111 @@
+﻿@import url('עיצוב דף ראשי.css');
+
+
+    header {
+        /*מרכוז הלוגו*/
+        text-align: center;
+        font-size: small;
+    }
+
+    h1 {
+        /*השמת כותרת האתר במרכז*/
+        text-align: center;
+    }
+
+    /*אחוזים*/
+    iframe {
+        /*הגודל /*הבסיסי שלו ישאר תמיד כך גם אם יקטינו את המסך*/
+       
+        width: 220%;
+    
+        flex-basis:400%;
+    }
+    main{
+        height:700px;
+    }
+    img {
+        /*גודל התמונה לאורכו ורוחבו*/
+        width: 50px;
+        height: 50px;
+    }
+
+    nav {
+        /*להעמיד באותה שורה*/
+        display: block;
+        /*צבע כל הנאב*/  
+        background-color: #809ef2;
+    }
+
+    aside {
+        /*אורך ורוחב*/
+       /*להעמיד באותה שורה*/
+        display: flex;
+        font-size:x-large;
+    }
+
+
+    footer {
+        /*מרכוז*/
+        text-align: center;
+        /*איפה ימוקם בפווטר באחוזים ביחס לדף*/
+        margin-top: 5%;
+    }
+
+    a:link {
+        /*אין פס מתחת לקישוריות*/
+        text-decoration: none;
+    }
+
+    a:hover {
+        /*בעת מעבר עכבר על הקישוריות הצבע יהיה כפי שהוגדר לו*/
+        background: #fed2d2;
+    }
+
+    :target {
+        /*צבע שיהיה מתחת לקישור ברגע שנעבור עליו*/
+        background: blueviolet;
+    }
+
+    header {
+        /*תמונת שתהיה בתוך האידר*/
+        background-image: url('קייטרינג.jpg');
+    }
+
+    footer::first-letter {
+        /*צבע לאות הראשונה של המשפט*/
+        color: aqua;
+    }
+
+    .container {
+        /*להעמיד באותה שורה*/
+     display: flex;
+        /*justify-content:space-around;*/
+    }
+
+    .rows-container {
+        /*הציר הראשי מוגדר בתור עמודה*/
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .flex-container {
+        /*להעמיד באותה שורה*/
+        display: block;
+        /*צבע רקע של הנאב*/
+        background-color: DodgerBlue;
+    }
+
+    #space {
+        /*רווח בין הקישוריות שבתוך הנאב*/
+        justify-content:space-around;
+    }
+
+    .w3-circle {
+        width: 10%;
+        height: 10%;
+        border-radius: 50px;
+    }
+
+
+   

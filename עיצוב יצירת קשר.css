@@ -1,0 +1,16 @@
+﻿/*h1-כותרת ראשית*/
+/*h2-כותרת משנית*/
+h1,h2{
+	color:#1651a4;
+      text-align:center;
+}
+p{
+	/*גודל כתב*/
+    font-size:large;
+	/*סוג של פונט*/
+    font-family:Arial;
+}
+/*אחרי לחיצה על הקישור, הקישור הופך לצבע שהוגדר לו*/
+a:visited{
+	background:blue;
+}

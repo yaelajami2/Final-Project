@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--קישור לדף עיצוב בסיסי של כל הדפים-->
+    <link href="כולם עיצוב.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title></title>
+    <!--תמונת אייקון-->
+    <link rel=" shortcut icon" href=
+    "Food 1119.jpg"  type="image/x-icon " />
+
+
+    <!--קישור  לדף עיצוב שלו css-->
+    <link href="עיצוב דף ראשי.css" rel="stylesheet" />
+</head>
+<!--כיוון לצד ימין
+container-שנוכל לפנות לדף העיצוב-->
+<body dir="rtl" class="container rows-container">
+
+    <!--header-מייצגת כותרת גדולה-->
+    <!--ה-header כאן משמש לתמונת לוגו המקשרת לדף הבית-->
+    <header class="container rows-container">
+        <a href="index.html">
+            <img src="download.png" class="w3-circle">
+
+        </a>
+        <!--h1-כותרת גדולה-->
+        <h1>
+            קייטרינג
+        </h1>
+
+    </header>
+
+    <!--div-  סרגל מכיל את הקישוריות לדפים אחרים-->
+    <div class="flex-container">
+        <!--class-שנוכל לפנות לדף העיצוב
+        space-מטרתו ליצור רווח בין הקישוריות-->
+        <!--target-מטרתו לפתוח בכל לחיצה על הקישור את הדף ב iframe-->
+        <nav class="container" id="space">
+            <a href="טבלת מחירים.html" target="_j">מחירון</a>
+            <a href="דף מילו פרטים.html" target="_j">מילוי פרטים</a>
+            <a href="דף  יצירת קשר.html" target="_j">יצירת קשר</a>
+            <a href="תפריט לפי קטגוריה.html " target="_j">תפריט</a>
+
+
+            <!--form-תגית זו היא מסוג טפסים והיא מקבלת פרטים ופה מטרתה לשמש לחיפוש
+            Type-סוג של חיפוש
+            placeholder-ערך ברירת מחדל בתוך הform
+            submit-זהו כפתור המשמש לשליחה של חיפוש
+            value-ערך ברירת מחדל-->
+            <form>
+                <input type="search" name="lo" placeholder="חיפוש" />
+                <input type="submit" value="חיפוש" />
+            </form>
+        </nav>
+    </div>
+    <!--class-שנוכל לפנות לדף העיצוב-->
+    <main class="container ">
+        <!--iframe-משמש למסגרת שבתוכה יפתחו העמדים בלחיצה על הקישור
+        height-אורך
+        width-רוחב
+        style-תמונת רקע כברירת מחדל וכל פעם בלחיצה על הלוגו התמונה תחזור-->
+        <iframe name="_j" style="        background-image: url('images.jpg');
+    "></iframe>
+        <!--class-שנוכל לפנות לדף העיצוב
+        Aside-זהו כיתוב צדדי שולי-->
+        <aside class="container">
+            <article>
+                <h1> אודות</h1>
+                חברת ‘קייטרינג גורמה’ הינה חברה
+                וותיקה הפועלת בתחום האוכל המוכן, החברה מספקת אוכל כשר למהדרין ברמה הגבוהה ביותר,
+                הן מבחינת הטעם המשובח המאפיין את המאכלים השונים היוצאים מתחת ידיה והן מבחינת טריות המוצרים.
+                החברה מתחייבת לכלל הלקוחות טריות בכל המאכלים הנעשים על ידה, דבר נוסף, כאשר אתם משתמשים בשירותי הקייטרינג שלנו תוכלו להיות רגועים בכל הקשור לנושא הכשרות,
+                תהליך הבישול אצלנו נעשה על ידי מפקח צמוד מטעם הבד”ץ, מה שמסיר כל חשש בנוגע לכשרות המאכלים.
+                מקור ההצלחה של הקייטרינג הוא, הוותק הרב בתחום האוכל המוכן והדרישה הבלתי מתפשרת לרמה גבוהה ומקסימלית.
+                להם החברה מעמידה את צרכי הלקוחות בראש סדרי העדיפויות, ומתאימה להם את התפריט על פי הסגנון היחודי המתאים
+            </article>
+
+
+        </aside>
+    </main>
+
+    <!--footer-כותרת תחתונה, בד"כ משמשת ל""כל הזכויות שמורות-->
+    <!--class-שנוכל לפנות לדף העיצוב-->
+    <footer class="footer">כל הזכויות שמורות </footer>
+   
+  
+    <p id="demo1"></p>
+    <script src="JavaScriptindex.js"></script>
+    <script src="חלונית לפירסום.js"></script>
+</body>
+</html>

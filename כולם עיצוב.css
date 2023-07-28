@@ -1,0 +1,32 @@
+﻿
+body {
+    direction: rtl;
+    /*צבע רקע*/
+    background-color: #cfd3d4;
+    /*סוג גופן*/
+    /*font-family: Ananim;*/
+    font-family:Afekoman;
+    h1 {
+    /*צבע הכותרת הראשית*/
+    color: #1651a4;
+}
+ ::-moz-selection {
+     /*צבע רקע*/
+	background-color: #ff6a00;
+    /*צבע כיתוב*/
+	color: white;
+}
+
+::selection{
+    /*צבע רקע*/
+	background-color:#e1e978;
+    /*צבע כיתוב*/
+	color:white;
+}
+
+@media only screen and (max-width: 10000px) {}
+  
+   
+
+
+

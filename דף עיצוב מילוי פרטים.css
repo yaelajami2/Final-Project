@@ -1,0 +1,18 @@
+﻿
+h2{
+    color: #1651a4;
+}
+
+form{
+    font-size:large;
+        font-family:Arial
+}
+input {
+	outline:0.2px solid blue;
+}
+h1{
+	text-align:center;
+}
+ p ::before {
+	content:circle;
+}

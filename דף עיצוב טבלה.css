@@ -1,0 +1,29 @@
+﻿table {
+	/*מסגרת*/
+    border: 3px inset#b8dfe5;
+    border-collapse:initial;
+	/*גובה*/
+    height:250px;
+	/*אורך*/
+    width:300px;
+}
+
+/*body{
+
+    font-size:22px;
+
+}*/
+
+h1{
+	/*מרכוז הכותרת הראשית לאמצע*/
+	text-align:center;
+}
+
+th::first-line{
+	/*צביעת שמות העמודות בצבע שהוגדר לו*/
+	background-color:blue;
+}
+main{
+
+	text-align:center;
+}
